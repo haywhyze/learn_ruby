@@ -9,3 +9,9 @@ end
 def subtract(operand_x, operand_y)
   operand_x - operand_y
 end
+
+def sum(numbers)
+  sum = 0
+  numbers.each { |x| sum += x }
+  sum
+end
