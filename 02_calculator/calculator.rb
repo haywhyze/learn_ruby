@@ -15,3 +15,9 @@ def sum(numbers)
   numbers.each { |x| sum += x }
   sum
 end
+
+def multiply(numbers)
+  product = 1
+  numbers.each { |x| product *= x }
+  product
+end
