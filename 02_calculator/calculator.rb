@@ -21,3 +21,7 @@ def multiply(numbers)
   numbers.each { |x| product *= x }
   product
 end
+
+def power(operand_x, operand_y)
+  operand_x**operand_y
+end
