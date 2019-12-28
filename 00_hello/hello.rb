@@ -5,3 +5,10 @@ def hello
   'Hello!'
 end
 
+def greet(name)
+  if name
+    'Hello, ' + name + '!'
+  else
+    'Hello!'
+  end
+end
