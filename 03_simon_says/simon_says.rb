@@ -20,3 +20,14 @@ end
 def first_word(text)
   text.split.first
 end
+
+def titleize(text)
+  text.split.each_with_index.map do |x, i|
+    small_words = %w[the over and]
+    if !small_words.include?(x) || i.zero?
+      x.capitalize
+    else
+      x
+    end
+  end .join(' ')
+end
