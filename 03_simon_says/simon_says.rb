@@ -16,3 +16,7 @@ end
 def start_of_word(word, number_of_letters)
   word[0..number_of_letters - 1]
 end
+
+def first_word(text)
+  text.split.first
+end
