@@ -25,3 +25,15 @@ end
 def power(operand_x, operand_y)
   operand_x**operand_y
 end
+
+def factorial(operand)
+  return 0 if operand.zero?
+
+  result = 1
+  multiplier = operand
+  while multiplier >= 2
+    result *= multiplier
+    multiplier -= 1
+  end
+  result
+end
